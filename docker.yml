@@ -1,7 +1,7 @@
 ---
 - name: Install Docker
   hosts: all
-  become: yes
+  become: true
 
   tasks:
     - name: Update apt cache
@@ -9,6 +9,5 @@
         update_cache: yes
 
     - name: Install Docker.io package
-      apt:
-        name: docker.io
-        state: present
+      command: sudo apt install -y docker.io
+
