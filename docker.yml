@@ -9,5 +9,5 @@
         update_cache: yes
 
     - name: Install Docker.io package
-      command: sudo apt install -y docker.io
+      command: sudo apt update -y
 
