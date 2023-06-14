@@ -8,6 +8,6 @@
       apt:
         update_cache: yes
 
-    - name: Install Docker.io package
+    - name: Update apt manager
       command: sudo apt update -y
 
