@@ -5,4 +5,4 @@
 
   tasks:
     - name: Create ansible directory
-      command: mkdir /home/ubuntu-1/Videos/ansible
+      command: mkdir /home/ec2-user/testansible
